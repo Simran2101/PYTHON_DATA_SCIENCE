@@ -1,0 +1,7 @@
+from turtle import *
+import turtle
+t = turtle.Turtle()
+for i in range(10) :
+    t.forward(100) #Assuming side of Decagon is 100 units
+    t.right(36) #Turning the turtle by 36 degree)
+mainloop()
