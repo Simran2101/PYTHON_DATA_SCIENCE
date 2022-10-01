@@ -1,4 +1,4 @@
-from random import randint # randint() used to print any randam number
+from random import randint # randint() used to print any random number
 
 
 win_count = 0

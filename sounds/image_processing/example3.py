@@ -1,10 +1,8 @@
 from PIL import Image, ImageFilter, ImageEnhance # <--------2 classes added
 
-im = Image.open('carrots.jpg') #relative address
+im = Image.open('tiger.jpg') #relative address
 im2 = Image.open(r'C:\Users\hp\Pictures\cab.jpg')
 
-#im.filter(ImageFilter.EMBOSS).show()
-#im.filter(ImageFilter.CONTOUR).show()
 #im.filter(ImageFilter.FIND_EDGES).show()
 #im.filter(ImageFilter.BLUR).show()
 #im.filter(ImageFilter.SMOOTH).show()
@@ -18,8 +16,7 @@ im2 = Image.open(r'C:\Users\hp\Pictures\cab.jpg')
 #for i in range(-10,11,2):
 #   eim.enhance(i).show()
 
-imc = im.copy()
-im2_s = im2.resize((300,240))
+im2_s = im2.resize((320,240))
 imc.paste(im2_s, (700,0))
 imc.paste(im2_s, (700,0))
 imc.show()
